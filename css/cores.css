@@ -1,0 +1,27 @@
+:root {
+    --cor-fundo: #0f172a;
+    --cor-primaria: #7c3aed;
+    --cor-primaria-hover: #a78bfa;
+    --cor-texto: #f9fafb;
+    --cor-subtexto: #94a3b8;
+    --cor-borda: #334155;
+    --cor-placeholder: #64748b;
+    --cor-fundo-card: #1e293b;
+    --espacamento-padrao: 1rem;
+    --borda-arredondada: 0.5rem;
+    --borda-arredondada-grande: 1rem;
+    --sombra-fraca: 0 10px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+  body:has(#switch-tema:checked) {
+    --cor-fundo: #f9fafb;
+    --cor-primaria: #7c3aed;
+    --cor-primaria-hover: #5b21b6;
+    --cor-texto: #1f2937;
+    --cor-subtexto: #6b7280;
+    --cor-borda: #d1d5db;
+    --cor-placeholder: #9ca3af;
+    --cor-fundo-card: #ffffff;
+    --sombra-fraca: 0 10px 25px rgba(0, 0, 0, 0.05);
+  }
+  
