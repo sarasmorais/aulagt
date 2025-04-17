@@ -1,0 +1,17 @@
+  .switch-tema{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .switch-tema label{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    cursor: pointer;
+    color: var(--cor-subtexto);
+    font-size: 0.9rem;
+  }
