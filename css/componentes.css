@@ -32,3 +32,18 @@ form{
 .campo input:focus{
     border-color: var(--cor-primaria);
 }
+
+button{
+    background-color: var(--cor-primaria);
+    color: antiquewhite;
+    padding: 0.75rem;
+    border: none;
+    border-radius: var(--borda-arredondada);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: var(--cor-primaria-hover);
+}
